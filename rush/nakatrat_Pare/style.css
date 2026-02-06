@@ -442,7 +442,7 @@ hr { border: 1px solid var(--border-soft); }
 }
 
 
-/* ===== Portfolio Section (NOW USES ABOUT COLORS) ===== */
+/* ===== Portfolio Section ===== */
 .portfolio{
   background: var(--bg-about);
   color: var(--text-about);
@@ -555,7 +555,7 @@ hr { border: 1px solid var(--border-soft); }
   }
 }
 
-/* ===== Contact Section (font = inherit from body) ===== */
+/* ===== Contact Section ===== */
 .contact{
   background: var(--bg-about);
   color: var(--text-about);
@@ -585,7 +585,6 @@ hr { border: 1px solid var(--border-soft); }
   font-size: 15px;
 }
 
-/* layout */
 .contact__grid{
   display: grid;
   grid-template-columns: 420px 1fr;
@@ -622,7 +621,6 @@ hr { border: 1px solid var(--border-soft); }
 
 .infoBox p { margin-top: 4px; font-size: 14px; color: var(--muted-about); }
 
-/* form */
 .contact__form{
   padding: 26px;
   border-radius: 14px;
@@ -653,7 +651,6 @@ hr { border: 1px solid var(--border-soft); }
 .contact__form input:focus,
 .contact__form textarea:focus { border-color: var(--primary); }
 
-/* button */
 .sendBtn{
   margin-top: 20px;
   padding: 12px 28px;
@@ -675,4 +672,5 @@ hr { border: 1px solid var(--border-soft); }
   .contact__grid { grid-template-columns: 1fr; }
   .formRow { grid-template-columns: 1fr; }
 }
+
 
